@@ -1,11 +1,25 @@
 {
-  "name": "wechat",
-  "version": "1.0.0",
+  "name": "wechat-sdk1",
+  "version": "2.1.0",
   "description": "wechat developer api",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "formstream": ">=1.0.0",
+    "urllib": "2.21.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "expect.js": "*",
+    "travis-cov": "*",
+    "coveralls": "*",
+    "mocha-lcov-reporter": "*",
+    "muk": "*",
+    "rewire": "*",
+    "istanbul": "*"
+  }
 }
