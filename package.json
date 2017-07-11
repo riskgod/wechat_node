@@ -1,11 +1,6 @@
 {
-<<<<<<< HEAD
   "name": "wechat-sdk",
-  "version": "1.0.2",
-=======
-  "name": "wechat-sdk2",
-  "version": "3.0.0",
->>>>>>> 719bf0163f180c516c1946cd8b207a6222c7d09e
+  "version": "1.0.3",
   "description": "wechat developer api",
   "main": "index.js",
   "scripts": {
