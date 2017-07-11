@@ -1,11 +1,30 @@
 {
+<<<<<<< HEAD
   "name": "wechat-sdk",
   "version": "1.0.2",
+=======
+  "name": "wechat-sdk2",
+  "version": "3.0.0",
+>>>>>>> 719bf0163f180c516c1946cd8b207a6222c7d09e
   "description": "wechat developer api",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "formstream": ">=1.0.0",
+    "urllib": "2.21.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "expect.js": "*",
+    "travis-cov": "*",
+    "coveralls": "*",
+    "mocha-lcov-reporter": "*",
+    "muk": "*",
+    "rewire": "*",
+    "istanbul": "*"
+  }
 }
