@@ -1,6 +1,6 @@
 {
-  "name": "wechat",
-  "version": "1.0.0",
+  "name": "wechat-sdk",
+  "version": "1.0.2",
   "description": "wechat developer api",
   "main": "index.js",
   "scripts": {
