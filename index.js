@@ -62,5 +62,6 @@ API.mixin(require('./lib/api_device'));
 API.mixin(require('./lib/api_shakearound'));
 // 门店管理接口
 API.mixin(require('./lib/api_poi'));
-
+// 检查请求是否来自微信服务器的转发
+API.mixin(require('./lib/api_check_request'));
 module.exports = API;
